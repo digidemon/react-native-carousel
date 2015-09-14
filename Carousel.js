@@ -87,7 +87,7 @@ var Carousel = React.createClass({
     }
 
     return (
-      <View style={[styles.pageIndicator, position, indicatorStyle]}>
+      <View style={[styles.pageIndicator, position, indicatorStyle, this.props.indicatorStyle]}>
         {indicators}
       </View>
     );
